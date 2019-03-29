@@ -10,6 +10,3 @@ csv = ','.join(str(e) for e in l)
 
 with open("./random.csv", mode='w') as f:
     f.write(csv)
-
-with open("./random.csv") as f:
-    print(f.read())
